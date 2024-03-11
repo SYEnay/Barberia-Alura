@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Barbería Alura</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body class="bg-brown">
+        <header class="bg-white mb-3">
+            <div class="container d-flex justify-content-center">
+                <div class="logo">
+                    <pinture><img src="assets/img/imagenes/logo.png"></pinture>
+                </div>
+                <nav class="d-flex menu items-center">
+                    <ul class="d-flex clear">
+                        <li ><a class="clear link-brown" href="index.html">Home</a></li>
+                        <li><a class="clear link-brown" href="productos.html">Productos</a></li>
+                        <li><a class="clear link-brown" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>    
+            </div>
+        </header>
+        <main class="d-flex justify-content-center">
+            <div class="br bg-brown-clear mb-3">
+                <h2 class="text-center txt-white mt-1 mb-1">Contáctanos</h2>
+                <form action="" method="get" class="text-center br txt-white p-all m-all br-white">
+                    <div class="d-flex part">
+                        <div class="bloque d-flex column m-auto">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" placeholder="Nombre" id="name">
+                        </div>
+                        <div class="bloque d-flex column m-auto">
+                            <label for="lastname">Apellido</label>
+                            <input type="text" name="lastname" placeholder="Apellido" id="lastname">
+                        </div>
+                    </div>
+                    <div class="d-flex part">
+                        <div class="bloque d-flex column m-auto">
+                            <label for="email">Correo</label>
+                            <input type="text" name="email" placeholder="Correo" id="email">
+                        </div>
+                        <div class="bloque d-flex column m-auto">
+                            <label for="email2">Confirmar Correo</label>
+                            <input type="text" name="email2" placeholder="Correo " id="email">
+                        </div>
+                    </div>
+                    <div class="d-flex part">
+                        <div class="bloque d-flex column m-auto">
+                            <label for="tel">Teléfono</label>
+                            <input type="tel" name="tel" placeholder="5555555555" id="tel">
+                        </div>
+                        <div class="bloque d-flex column m-auto">
+                            <label for="text">Dirección</label>
+                            <input type="address" name="address" placeholder="Dirección" id="address">
+                        </div>
+                    </div>
+                    <div class="d-flex part">
+                        <div class="bloque d-flex column m-auto">
+                            <label for="">Holrario de atención</label>
+                            <select name="" id="">
+                                <option value="">Lunes</option>
+                                <option value="">Miércoles</option>
+                                <option value="">Viernes</option>
+                            </select>
+                        </div>
+                        <div class="bloque d-flex column m-auto">
+                            <table class="mb-1 mt-1"> 
+                                <thead class="bg-dark">
+                                    <tr>
+                                        <th>Día</th>
+                                        <th>Horario</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Lunes</td>
+                                        <td> 8h - 20h</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Miércoles</td>
+                                        <td> 8h - 20h</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Viernes</td>
+                                        <td> 8h - 20h</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="part">
+                        <div class="bloque-special d-flex column m-auto">
+                            <p class="bg-dark mt-1">¿Cómo te gustaría que lo contactemos?</p>
+                            <div class="d-flex justify-content-around">
+                                <div class="bloque d-flex justify-content-center">
+                                    <input type="radio" name="contacto" id="radio-email">
+                                    <label for="radio-email">Correo</label>
+                                </div>
+                                <div class="bloque d-flex justify-content-center">
+                                    <input type="radio" name="contacto" id="radio-tel">
+                                    <label for="radio-tel">Teléfono</label>
+                                </div>
+                                <div class="bloque d-flex justify-content-center">
+                                    <input type="radio" name="contacto" id="radio-whatsapp">
+                                    <label for="radio-tel">WhatsApp</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mensaje d-flex column m-auto">
+                            <label for="message">Mensaje</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="bloque-special d-flex m-auto">
+                            <label for="checkbox">Acepta terminos y condiciones</label>
+                            <input type="checkbox" name="checkbox" id="checkbox-1">
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" value="Enviar" class="enviar ts">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer class="bg-white">
+            <div class="container d-flex column justify-content-center">
+                <div class="logo m-auto">
+                    <pinture><img src="assets/img/imagenes/logo.png"></pinture>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="text-center txt-bown mb-3">
+                            <p>© 2024 ALURA / Giron Escalona Erendira Nayely.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
